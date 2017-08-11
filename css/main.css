@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  color: #5A5050;
+}
+
+article {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+a {
+  color: #EC1C4B;
+  transition: color 0.3s ease-in;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover,
+a:visited {
+  color: #A6206A;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  padding-bottom: 5px;
+  border-bottom: 5px solid #EC1C4B;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+p,
+li {
+  line-height: 1.4;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li:last-child h3 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+.best-practice-list li {
+  margin-bottom: 30px;
+}
